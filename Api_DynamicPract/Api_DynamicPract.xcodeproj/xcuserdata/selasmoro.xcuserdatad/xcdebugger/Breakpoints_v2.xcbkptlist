@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3682C8D7-E337-4BAF-BA99-3D9EB3E97B1B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "667F9E4D-CF01-4734-8E0D-EBF8F1C95E7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Api_DynamicPract/NewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2142117B-9311-437D-B1BB-259B5FEAA8A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Api_DynamicPract/PlayerScoreCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "configurecell(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2142117B-9311-437D-B1BB-259B5FEAA8A4 - e3045ec2a2173f45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Api_DynamicPract.PlayerScoreCell.configurecell(data: Api_DynamicPract.Api1) -&gt; ()"
+                  moduleName = "Api_DynamicPract"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selasmoro/Documents/Api_DynamicPract/Api_DynamicPract/PlayerScoreCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "5484">
+               </Location>
+               <Location
+                  uuid = "2142117B-9311-437D-B1BB-259B5FEAA8A4 - e3045ec2a2173ce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Api_DynamicPract.PlayerScoreCell.configurecell(data: Api_DynamicPract.Api1) -&gt; ()"
+                  moduleName = "Api_DynamicPract"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selasmoro/Documents/Api_DynamicPract/Api_DynamicPract/PlayerScoreCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "5480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2682075D-1F57-4A7A-8044-848F3DA10F1B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Api_DynamicPract/PlayerScoreCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "configurecell(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2682075D-1F57-4A7A-8044-848F3DA10F1B - e3045ec2a2173f6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Api_DynamicPract.PlayerScoreCell.configurecell(data: Api_DynamicPract.Api1) -&gt; ()"
+                  moduleName = "Api_DynamicPract"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selasmoro/Documents/Api_DynamicPract/Api_DynamicPract/PlayerScoreCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "6384">
+               </Location>
+               <Location
+                  uuid = "2682075D-1F57-4A7A-8044-848F3DA10F1B - e3045ec2a2173c87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Api_DynamicPract.PlayerScoreCell.configurecell(data: Api_DynamicPract.Api1) -&gt; ()"
+                  moduleName = "Api_DynamicPract"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selasmoro/Documents/Api_DynamicPract/Api_DynamicPract/PlayerScoreCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "6380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABF82A84-0E9F-4960-9786-C1A48406BC20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Api_DynamicPract/PlayerScoreCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

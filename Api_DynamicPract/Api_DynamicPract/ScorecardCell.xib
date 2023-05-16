@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ScorecardCell" rowHeight="654" id="KGk-i7-Jjw" customClass="ScorecardCell" customModule="Api_DynamicPract" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="389" height="654"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="389" height="654"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aiB-Fl-DSV">
+                        <rect key="frame" x="0.0" y="0.0" width="389" height="44"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <items>
+                            <navigationItem title="Scorecard" id="mSk-6d-pSG"/>
+                        </items>
+                    </navigationBar>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="OdF-Q4-fpZ">
+                        <rect key="frame" x="0.0" y="44" width="389" height="32"/>
+                        <segments>
+                            <segment title="IND"/>
+                            <segment title="NZ"/>
+                        </segments>
+                        <connections>
+                            <action selector="TeamScorecard:" destination="KGk-i7-Jjw" eventType="valueChanged" id="ekw-7P-qq8"/>
+                        </connections>
+                    </segmentedControl>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVd-rt-emM">
+                        <rect key="frame" x="6" y="83" width="377" height="48"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Players" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YoZ-vW-C4N">
+                                <rect key="frame" x="23" y="14" width="55" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmf-Uy-IlC">
+                                <rect key="frame" x="167" y="14" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPJ-qe-JH4">
+                                <rect key="frame" x="229" y="14" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SR." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViY-Nc-00h">
+                                <rect key="frame" x="314" y="13" width="26" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ERR-Kr-qBx">
+                        <rect key="frame" x="20" y="131" width="349" height="512"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="ERR-Kr-qBx" secondAttribute="trailing" id="483-vQ-yUA"/>
+                    <constraint firstItem="gVd-rt-emM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-14" id="6ST-d4-klV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ERR-Kr-qBx" secondAttribute="bottom" id="8oY-Ay-YB1"/>
+                    <constraint firstItem="ERR-Kr-qBx" firstAttribute="top" secondItem="gVd-rt-emM" secondAttribute="bottom" id="8xZ-ji-0X7"/>
+                    <constraint firstItem="gVd-rt-emM" firstAttribute="centerX" secondItem="aiB-Fl-DSV" secondAttribute="centerX" id="AIk-rT-J9B"/>
+                    <constraint firstItem="aiB-Fl-DSV" firstAttribute="leading" secondItem="OdF-Q4-fpZ" secondAttribute="leading" id="AgD-E2-II0"/>
+                    <constraint firstItem="aiB-Fl-DSV" firstAttribute="bottom" secondItem="OdF-Q4-fpZ" secondAttribute="top" id="KEz-Pz-Hca"/>
+                    <constraint firstAttribute="bottom" secondItem="gVd-rt-emM" secondAttribute="bottom" constant="523" id="VbV-RJ-VMy"/>
+                    <constraint firstItem="ERR-Kr-qBx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="fqz-ss-y5C"/>
+                    <constraint firstItem="gVd-rt-emM" firstAttribute="top" secondItem="OdF-Q4-fpZ" secondAttribute="bottom" constant="8" symbolic="YES" id="ofd-GV-Zcf"/>
+                    <constraint firstItem="gVd-rt-emM" firstAttribute="centerX" secondItem="ERR-Kr-qBx" secondAttribute="centerX" id="qMN-Fr-aL9"/>
+                    <constraint firstItem="gVd-rt-emM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="83" id="qmO-AE-iqM"/>
+                    <constraint firstItem="gVd-rt-emM" firstAttribute="centerX" secondItem="OdF-Q4-fpZ" secondAttribute="centerX" id="s41-uT-Vni"/>
+                    <constraint firstItem="aiB-Fl-DSV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uG1-dM-4Qx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="PlayerScorecard" destination="ERR-Kr-qBx" id="yOi-My-igv"/>
+                <outlet property="ScorecardTeams" destination="OdF-Q4-fpZ" id="z76-Nb-djc"/>
+            </connections>
+            <point key="canvasLocation" x="191.6030534351145" y="233.09859154929578"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
